@@ -61,6 +61,6 @@ $ protoc --go_out=.\
 #### [`saga`](https://github.com/temporalio/temporal)
 
 ##### local development
-``` $ git submodule update --init ```
+``` $ git submodule update --init ```  
 ``` $ cd $PROJECT_ROOT/third_party/temporal-server-docker-compose ```  
-``` $ docker-compose up ```
+``` $ docker-compose up ```  
