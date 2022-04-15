@@ -53,9 +53,9 @@ but it is very time consuming and boring repeat x10 times same CRUD functions.
 -   [`gRPC in 3 minutes (Go)`](https://go.googlesource.com/grpc-review/+/refs/heads/PR/570/examples/README.md)
 
 ``` 
-$ protoc --go_out=.\ 
-		 --go-grpc_out=. \
-		  todo.proto
+$ protoc --go_out=.\
+		--go-grpc_out=. \
+		todo.proto
 ```   
 
 #### [`saga`](https://github.com/temporalio/temporal)
