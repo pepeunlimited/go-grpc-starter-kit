@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package pepeunlimited.grpckit.resources;
+
+option go_package = "github.com/pepeunlimited/go-grpc-starter-kit/pkg/api/v1/resources";
+
+import "enums/withdrawal_status.proto";
+import "resources/workflow.proto";
+
+message Withdrawal {
+  string id                                            = 1;
+  pepeunlimited.grpckit.enums.WithdrawalStatus status  = 2;
+  int64 amount                                         = 3;
+  string created_at                                    = 4;
+  string updated_at                                    = 5;
+  int64 user_id                                        = 6;
+  pepeunlimited.grpckit.resources.Workflow workflow    = 7;
+}
