@@ -54,8 +54,8 @@ but it is very time consuming and boring repeat x10 times same CRUD functions.
 
 ``` 
 $ protoc --go_out=.\
-		--go-grpc_out=. \
-		todo.proto
+--go-grpc_out=. \
+todo.proto
 ```   
 
 #### [`saga`](https://github.com/temporalio/temporal)
